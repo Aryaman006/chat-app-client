@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* In your main CSS or SCSS file */
+@import 'daisyui/dist/full.css';
+
+
+body {
+  background-image: url(/snow.avif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.message-bubble {
+  max-width: 70%;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  clear: both;
+  color: black;
+}
+
+.sent {
+  background-color: #DCF8C6;
+  float: right;
+}
+
+.received {
+  background-color: #E5E5EA;
+  float: left;
+}
+
+
